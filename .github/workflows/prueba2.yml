@@ -1,0 +1,10 @@
+name: segunda-oportunidad
+on:
+  push: [ "master" ]
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    - steps:
+      - name: pruebaaa
+        run: echo 'hola que hace'
