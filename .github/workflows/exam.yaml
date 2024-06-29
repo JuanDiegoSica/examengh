@@ -1,0 +1,12 @@
+name: exam
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  prueba:
+      runs-on: ubuntu-latest
+      steps:
+        - name: pruebaaaaaaa
+          run: echo 'holaaaa'
