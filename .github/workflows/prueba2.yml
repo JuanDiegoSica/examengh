@@ -1,7 +1,7 @@
 name: segunda-oportunidad
 on:
   push: 
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   prueba:
