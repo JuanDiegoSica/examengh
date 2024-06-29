@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: pruebaaa
         run: echo 'hola que hace'
+      - name: obtener secreto
+        run: echo ${{secrets.secreto_prueba}}
