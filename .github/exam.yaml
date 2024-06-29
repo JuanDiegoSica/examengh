@@ -1,0 +1,10 @@
+name: Exam JD
+on:
+  push: [main]
+
+jobs:
+  prueba:
+    use: ubuntu
+    - step:
+        name: 'hello-word'
+        run : echo 'Hello word'
