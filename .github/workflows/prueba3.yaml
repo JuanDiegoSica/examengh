@@ -1,0 +1,12 @@
+name: trabajar paralelos
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  paralelo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: primer-paralelo
+        run: echo 'prueba'
