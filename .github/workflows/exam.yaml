@@ -2,7 +2,7 @@ name: exam
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   prueba:
