@@ -10,4 +10,10 @@ jobs:
       - name: pruebaaa
         run: echo 'hola que hace'
       - name: obtener secreto
-        run: echo ${{secrets.secreto_prueba}}
+        run: echo ${{secrets.secreto_prueba}} > output.txt
+      - name: cargar artefacto
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: mi-artefacto
+          path: output.txt
+              
